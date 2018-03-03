@@ -20,7 +20,7 @@ public class ExtendableBeanTest
         ExtendableBean extendableBean = new ExtendableBean("Arkadiy", map);
         String result = new ObjectMapper().writeValueAsString(extendableBean);
         Assert.assertThat(result, containsString("Arkadiy"));
-        Assert.assertThat(result, containsString("weigh"));
+        Assert.assertThat(result, containsString("weigh")); 
         Assert.assertThat(result, containsString("180"));
         Assert.assertThat(result, not(containsString("properties")));
     }
