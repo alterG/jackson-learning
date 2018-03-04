@@ -13,8 +13,6 @@ import static org.junit.Assert.assertThat;
 
 public class ExtendableBeanTest
 {
-
-
     private static final String OBJECT_TYPE_FIELD_NAME = "properties";
 
     private static final String OBJECT_TYPE_INNER_FILED_NAME = "weigh";
