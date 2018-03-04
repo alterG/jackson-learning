@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum Enum1
 {
-    ARTEM(1, "CRAZYMAN"),
+    ARTEM(1, "ARTEMIUS"),
     YAROSLAV(2, "YAR");
 
     private int code;
